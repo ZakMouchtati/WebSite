@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.contact form {
+  width: 60%;
+  padding: 30px 10px;
+  float: left;
+}
+.contact form h2 {
+  font-weight: bold;
+  margin-left: 30px;
+}
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 90%;
+  margin: 10px auto !important;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid RGB(229, 229, 229);
+  border-radius: 5px;
+}
+.contact form input,
+.contact form textarea {
+  outline-color: rgb(255, 233, 46);
+}
+.contact form input[type="submit"] {
+  border: 1px solid rgb(255, 233, 46);
+  background-color: rgb(255, 233, 46);
+  color: #fff;
+}
+.contact form input[type="submit"]:hover {
+  background-color: #fff;
+  color: rgb(255, 233, 46);
+}
+.adresse {
+  width: 40%;
+  padding: 80px 30px;
+  float: right;
+}
+.contact .adresse h3,
+.contact form h2 {
+  text-align: center;
+}
+.contact .adresse h3 {
+  letter-spacing: 2px;
+}
+.contact .adresse a {
+  color: #000;
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 991px) {
+  .contact form,
+  .contact .adresse {
+    width: 100%;
+    float: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.headerdesc {
+  background-color: RGB(248, 217, 28);
+  padding: 15px 0px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.headerdesc p:first-child {
+  margin-bottom: 20px;
+}
+p span {
+  font-weight: bold;
+}
+header .logo {
+  width: 30%;
+  float: left;
+}
+header .link {
+  width: 70%;
+  float: right;
+  font-weight: bold;
+}
+header .link ul {
+  list-style: none;
+  margin-bottom: 0rem;
+  display: block;
+}
+header .link ul li {
+  width: calc(100% / 4);
+  float: left;
+  padding: 20px 0px 20px;
+  text-align: center;
+  height: 100%;
+}
+header .link ul li:hover,
+a:hover {
+  background-color: RGB(248, 217, 28);
+  color: #000;
+  text-decoration: none;
+}
+.search {
+  background-color: RGB(248, 183, 28);
+  padding: 5px;
+}
+select {
+  padding: 7px 10px;
+  background-color: #d39c18;
+  color: #fff;
+  width: 20%;
+  float: left;
+}
+.seachproduit {
+  width: 70%;
+  float: left;
+  margin-left: 10px;
+}
+.mb-3,
+.my-3 {
+  margin-bottom: 0rem !important;
+}
+a {
+  color: #000 !important;
+  text-decoration: none;
+}
+.seachproduit:focus {
+  outline: none;
+}
+.icon-menu {
+  display: none;
+}
+.clearfix,
+.clear {
+  clear: both;
+}
+.clear {
+  display: none;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (max-width: 768px) {
+  header .logo {
+    width: 100%;
+    width: 40%;
+  }
+  header .link {
+    float: none;
+    width: 100%;
+  }
+  header .link ul a li {
+    width: 100%;
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .icon-menu {
+    width: 40%;
+    display: block;
+    float: right;
+    margin-top: 10px;
+
+    margin-right: 30px;
+    width: 50px;
+  }
+  .icon-menu img {
+    width: 90%;
+  }
+  .clear {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  header .link {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.item {
+  float: left;
+  min-height: 400px;
+  width: calc(95% / 4);
+  margin: 1% 0px 0px 1%;
+  text-align: center;
+  position: relative;
+  margin-left: 1%;
+}
+.item .prix {
+  color: #f8b71cff;
+  font-weight: bold;
+}
+.item a {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #f8b71c;
+}
+.item:hover {
+  border: 1px solid #f8b71c;
+}
+.item a:hover {
+  background-color: #f8b71c;
+  border: 1px solid #f8b71c;
+}
+
+@media (max-width: 576px) {
+  .item {
+    float: left;
+    min-height: 400px;
+    width: calc(95% / 1);
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .item {
+    float: left;
+    min-height: 400px;
+    width: calc(95% / 2) !important;
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .item {
+    float: left;
+    min-height: 400px;
+    width: calc(95% / 3);
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item {
+    float: left;
+    min-height: 400px;
+    width: calc(95% / 4);
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+footer {
+  background-color: #000;
+}
+footer .logo-footer {
+  padding: 50px 0px;
+  background-image: url(../img/footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom: 1px solid #fff;
+}
+.links-footer {
+  padding: 20px 0px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.links-footer .choix {
+  float: left;
+  width: 30%;
+}
+.links-footer .choix:nth-of-type(2) {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.clearfix {
+  clear: both;
+}
+.links-footer .choix ul {
+  list-style: none;
+}
+.links-footer .choix ul li {
+  padding-left: 10px;
+}
+.links-footer .choix ul li:hover {
+  color: rgb(255, 233, 46);
+}
+.links-footer .choix h5 {
+  margin-top: 30px;
+}
+.links-footer .choix h5::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: rgb(255, 233, 46);
+  margin-top: 10px;
+}
+.footer-social-media {
+  width: 20%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.footer-social-media img {
+  width: calc(90% / 4);
+  float: left;
+  margin-left: 10px;
+}
+@media (max-width: 576px) {
+  .links-footer .choix {
+    float: none;
+    width: 60%;
+    margin: 0px auto 10px;
+  }
+  .links-footer .choix:nth-of-type(2) {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0px auto 10px;
+  }
+  .footer-social-media {
+    width: 45%;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  .links-footer .choix:nth-of-type(1) {
+    float: none;
+    width: 80%;
+    padding-left: 30%;
+    margin: 0 auto;
+  }
+  .links-footer .choix:nth-of-type(2),
+  .choix:nth-of-type(2) {
+    width: 48%;
+    margin-left: 1%;
+  }
+  .footer-social-media {
+    width: 40%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.contact form {
+  width: 60%;
+  padding: 30px 10px;
+  float: left;
+}
+.contact form h2 {
+  font-weight: bold;
+  margin-left: 30px;
+}
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 90%;
+  margin: 10px auto !important;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid RGB(229, 229, 229);
+  border-radius: 5px;
+}
+.contact form input,
+.contact form textarea {
+  outline-color: rgb(255, 233, 46);
+}
+.contact form input[type="submit"] {
+  border: 1px solid rgb(255, 233, 46);
+  background-color: rgb(255, 233, 46);
+  color: #fff;
+}
+.contact form input[type="submit"]:hover {
+  background-color: #fff;
+  color: rgb(255, 233, 46);
+}
+.adresse {
+  width: 40%;
+  padding: 80px 30px;
+  float: right;
+}
+.contact .adresse h3,
+.contact form h2 {
+  text-align: center;
+}
+.contact .adresse h3 {
+  letter-spacing: 2px;
+}
+.contact .adresse a {
+  color: #000;
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 991px) {
+  .contact form,
+  .contact .adresse {
+    width: 100%;
+    float: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}
