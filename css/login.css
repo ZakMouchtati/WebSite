@@ -1,0 +1,90 @@
+.contentfrom {
+  position: relative;
+  height: 100vh;
+}
+
+form {
+  position: absolute;
+  width: 555px;
+  top: 50%;
+  left: 50%;
+  background-color: RGB(255, 255, 255);
+  transform: translate(-50%, -50%);
+  border-radius: 14px;
+  padding: 50px 20px;
+}
+
+form input {
+  width: 70%;
+  padding: 5px 10px;
+  outline: none;
+  margin-left: 15%;
+  border-radius: 5px;
+  border: 1px solid RGB(107, 109, 124);
+  margin-bottom: 40px;
+}
+
+form label {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+form h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: RGB(107, 109, 124);
+}
+
+form .btnrealtive {
+  border: none;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.connect {
+  width: 80%;
+  display: inline-block;
+  border-radius: 50px !important;
+  font-size: 13px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  background-color: RGB(230, 31, 91);
+  color: RGB(255, 255, 245);
+  border: none;
+}
+
+.logo {
+  text-align: center;
+}
+
+body {
+  background-color: RGB(245, 245, 248);
+}
+
+.eroor {
+  background-color: RGB(255, 245, 245);
+  color: RGB(207, 0, 0);
+  width: 70%;
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 14px;
+  margin: 10px auto;
+}
+
+.empty {
+  width: 70%;
+  padding: 30px 0px;
+  margin: 10px auto;
+}
+
+.createaccount {
+  color: RGB(207, 0, 0);
+}
+
+.createaccount:hover {
+  color: RGB(210, 0, 0) !important;
+}

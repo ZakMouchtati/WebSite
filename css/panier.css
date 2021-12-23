@@ -1,0 +1,38 @@
+.tablepanier table tr {
+  border-bottom: 2px solid RGB(230, 230, 230);
+  margin-bottom: 10px;
+}
+
+.tablepanier table tr td {
+  width: calc(100% / 5);
+  text-align: center;
+}
+
+.tablepanier table tr td .imgproduct {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.tablepanier h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+td div input {
+  width: 20%;
+  outline: none;
+  text-align: center;
+  border: none;
+  background-color: inherit;
+}
+
+td a:hover {
+  color: red;
+}
+
+.tablepanier p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 22px;
+  padding: 10px 20px;
+}

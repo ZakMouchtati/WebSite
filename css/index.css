@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+.item{
+    float: left;
+    min-height: 400px;
+    width: calc(95%/4);
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%;
+    transition: all .5s ease-in-out;
+}
+.item .prix{
+    color: #f8b71c;
+    font-weight: bold
+}
+.btncommader{
+    position: absolute;
+    bottom: 14px;
+    transform:translate(-0%);
+    right:12%
+}
+.item a{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #f8b71c;
+    border-radius: 5px
+    
+}
+.item:hover{
+    border: 1px solid #f8b71c;     
+}
+.item a:hover{
+    border: 1px solid #f8b71c;
+    background-color: #f8b71c;
+}
+
+.commander{
+    border: none !important;
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .item{
+    float:none;
+    min-height: 400px;
+    width: calc(95%/1);
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%
+    }
+    .btncommader{
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 577px)and (max-width: 991px) {
+    .item{
+    float: left;
+    min-height: 400px;
+    width: calc(95%/2) !important;
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .item{
+    float: left;
+    min-height: 400px;
+    width: calc(95%/3);
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%
+    }
+}
+
+@media (min-width: 1200px) {
+    .item{
+    float: left;
+    min-height: 400px;
+    width: calc(95%/4);
+    margin: 1% 0px 0px 1%;
+    text-align: center;
+    position: relative;
+    margin-left: 1%
+    }
+    
+}

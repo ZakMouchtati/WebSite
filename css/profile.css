@@ -1,0 +1,56 @@
+.inf-content {
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+}
+
+.inf-content tr td .modifier-info,
+.btn-modifier,
+.btn-cancel {
+  float: right;
+}
+
+.inf-content input {
+  width: 100%;
+  padding: 0px 10px;
+  outline: none;
+  border: 1px solid blue;
+  color: inherit;
+  border-radius: 5px;
+}
+
+.show-updated {
+  display: none;
+}
+
+.modifier-info {
+  border: none;
+  color: blue;
+  background-color: transparent;
+}
+
+.modifier-info:hover {
+  text-decoration: underline;
+}
+
+.showuser {
+  padding: 0px 11px;
+}
+
+.btnprofile,
+.cancelprofile {
+  display: none;
+}
+
+.imgprofile {
+  padding-bottom: 30px;
+}
+
+.editProfile {
+  border: none !important;
+  padding: 5px 40px !important;
+  outline: none;
+}
